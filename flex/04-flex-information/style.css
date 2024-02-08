@@ -1,10 +1,29 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
-img {
+.pudin {
+  display:flex;
+  margin:32px;
+  gap:52px;
+  justify-content: center;
+}
+
+.caja {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+  }
+
+
+.caja img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 .title {
